@@ -1,0 +1,123 @@
+#body-id{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    height: calc(100vh - 16px);
+    max-height: 1000px;
+    max-width: 1900px;
+    min-height: 800px;
+    min-width: 1700px;
+}
+
+#cover{
+    display: flex;
+    /*display: none;*/
+    background: #fff9c2;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-flow: column;
+    width: 100%;
+    text-align: center;
+}
+
+.instruction{
+    /*font-size: x-small;*/
+    font-size: xx-large;
+    /* text-decoration-color: gold; */
+    font-family: cursive;
+    text-transform: uppercase;
+}
+
+#container{
+    /*display: flex;*/
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+#field{
+    display: flex;
+    flex-direction: row;
+    height: 80%;
+    width: 100%;
+}
+
+#left-field, #right-field{
+    background-image: url("http://95.154.71.136/game/img/left_field.png");
+    background-size: cover;
+    -webkit-user-select: none;
+    height: 100%;
+    width: 20%;
+}
+
+#road{
+    background-image: url("http://95.154.71.136/game/img/new_road1.png");
+    background-size: cover;
+    -webkit-user-select: none;
+    height: 100%;
+    width: 60%;
+}
+
+#controller{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("http://95.154.71.136/game/img/wood.jpg");
+    background-size: contain;
+    height: 20%;
+    width: 100%;
+}
+
+#button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    width: 7%;
+}
+
+#button{
+    height: 100%;
+    width: 100%;
+}
+
+#car-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 60px;
+    width: 120px;
+    top: 636px;
+    left: 926px;
+    /*top: 70vh;*/
+    /*left: 51vh;*/
+    transform: rotate(178deg);
+}
+
+#car{
+    height: 100%;
+    width: 100%;
+}
+
+#start{
+    background-color: #dbfeff;
+    font-size: x-small;
+    font-family: cursive;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#first,
+#second,
+#third{
+    display: none;
+    height: 100%;
+    width: 100%;
+}

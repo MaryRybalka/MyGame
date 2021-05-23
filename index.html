@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link type="text/css" rel="stylesheet" href="index.css">
+    <title>Roller Game</title>
+</head>
+<body id = "body-id">
+<div id="cover">
+    <span class="instruction">Добро пожаловать на весёлые гонки по пустыне!</span>
+    <span class="instruction">О нет, у вас сломалась рулевая рейка, а для управления машиной дана всего одна кнопка.</span>
+    <span class="instruction"> Нажимайте её, чтобы машина ехала прямо.</span>
+    <span class="instruction"> Удачи Вам доехать до финиша. И постарайтесь не улететь в кювет...</span>
+    <button id="start">Я готов</button>
+</div>
+<div id="container">
+    <div id="field">
+        <div id="left-field">
+
+        </div>
+        <div id="road">
+            <canvas id="car-container">
+<!--                <img src="img/car.png" id="car">-->
+            </canvas>
+        </div>
+        <div id="right-field">
+            <img src="img/1.png" id="first">
+            <img src="img/2.png" id="second">
+            <img src="img/3.png" id="third">
+        </div>
+    </div>
+    <div id="controller">
+        <div id="button-container">
+            <img src="img/up_button.png" id = "button">
+        </div>
+    </div>
+</div>
+<script type="module" src="index.js"></script>
+</body>
+</html>
