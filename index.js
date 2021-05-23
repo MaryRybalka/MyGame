@@ -76,8 +76,8 @@ function startRide(){
                     incy = 20;
                 }else{
                     if ((pos.y < (window.screen.height/2))&&(pos.x > (window.screen.width/2))){
-                        incy = 20;
-                        incx = 20;
+                        incy = -20;
+                        incx = -20;
                     }else{
                         if ((pos.y < (window.screen.height/2))&&(pos.x < (window.screen.width/2))){
                             incy = 20;
@@ -87,8 +87,8 @@ function startRide(){
                                 incy = -20;
                                 incx = 20;
                             }else{
-                                    incy = -20;
-                                    incx = -20;
+                                    incy = 20;
+                                    incx = 20;
                                 }
                         }
                     }
